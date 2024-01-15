@@ -3,11 +3,11 @@ age = int(input("How old are you?\n"))
 age1 = int(input("Choose the age you want:\n"))
 UmAno = float(52.1786)
 
-age1 = age1 - age
-age2 = age1 * UmAno
+age2 = age1 - age
+age3 = age2 * UmAno
 
-Resultado = age2
+Resultado = age3
 
-print(f"You have {round(Resultado,1)} weeks left to  {age1} years")
+print(f"You have {round(Resultado,1)} weeks left to {age1} years")
 
 enter = input("\nPress Enter to close")
